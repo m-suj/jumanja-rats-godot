@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://c7cdc5qf5xvpw"]
+[gd_scene load_steps=2 format=3 uid="uid://c7cdc5qf5xvpw"]
 
-[node name="Node" type="Node"]
+[ext_resource type="Script" path="res://scripts/labyrinth_pathfinding.gd" id="1_3k06q"]
+
+[node name="LabyrinthPathfinding" type="Node"]
+script = ExtResource("1_3k06q")
+end_pos = Vector2i(5, 5)
