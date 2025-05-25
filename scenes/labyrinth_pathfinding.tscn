@@ -4,4 +4,4 @@
 
 [node name="LabyrinthPathfinding" type="Node"]
 script = ExtResource("1_3k06q")
-end_pos = Vector2i(5, 5)
+end_pos = Vector2i(19, 38)

@@ -2,7 +2,7 @@ extends Node
 class_name labyrinth_pathfinding
 
 @export var start_pos = Vector2i(1, 1)
-@export var end_pos = Vector2i(6, 6)
+@export var end_pos = Vector2i(1, 2)
 var _labyrinth_text: Array[String]
 var _rows: int
 var _cols: int
@@ -15,7 +15,7 @@ func _ready() -> void:
 		_labyrinth_text.append(line)
 	file.close()
 	
-	_labyrinth_text = _labyrinth_text.slice(0, -1)
+	# _labyrinth_text = _labyrinth_text.slice(0, -1)
 	_rows = len(_labyrinth_text)
 	_cols = len(_labyrinth_text[0])
 	
